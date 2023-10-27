@@ -61,6 +61,8 @@
                     $emailErr = "<p style='color:red'> * Email Already Register</p>";
                 } else{
 
+
+                    //inserting employee details to db
                     $sql = "INSERT INTO employee( name , email , password , dob, gender , salary ) VALUES( '$name' , '$email' , '$pass' , '$dob' , '$gender', '$salary' )  ";
                     $result = mysqli_query($conn , $sql);
                     if($result){
