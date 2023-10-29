@@ -7,6 +7,7 @@
 ?>
 
 
+
 <?php  
 
         $nameErr = $emailErr = $passErr =  "";
@@ -80,8 +81,6 @@
     }
 
 ?>
-
-
 
 <div > 
 <div class="login-form-bg h-100">
