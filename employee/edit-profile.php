@@ -1,8 +1,6 @@
 <?php
     require_once "include/header.php";
 ?>
-
-
 <?php  
     // database connection
         require_once "../connection.php";
@@ -85,8 +83,6 @@ if(mysqli_num_rows($result) > 0 ){
             }
         }
 ?>
-
-
 
 <div style=""> 
 <div class="login-form-bg h-100">
