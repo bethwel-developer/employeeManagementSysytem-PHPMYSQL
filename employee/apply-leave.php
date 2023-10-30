@@ -5,8 +5,6 @@ require_once "include/header.php";
 
 <?php 
 
-
-
 $reasonErr = $startdateErr = $lastdateErr = "";
 $reason = $startdate = $lastdate = "";
 
@@ -53,7 +51,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         }
 }
 ?>
-
 
 <div class="login-form-bg h-100">
         <div class="container h-100">
