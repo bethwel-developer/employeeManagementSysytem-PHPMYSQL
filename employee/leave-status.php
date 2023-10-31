@@ -24,6 +24,7 @@ table, th, td {
 table {
   border-spacing: 10px;
 }
+    
 </style>
 
 <div class="container bg-white shadow">
@@ -40,8 +41,9 @@ table {
         <th>Action</th>
 
     </tr>
+        
     <?php 
-    
+
     if( mysqli_num_rows($result) > 0){
         while( $rows = mysqli_fetch_assoc($result) ){
             $start_date= $rows["start_date"];
@@ -90,4 +92,4 @@ table {
 
 <?php 
     require_once "include/footer.php";
-?>
+?>    
