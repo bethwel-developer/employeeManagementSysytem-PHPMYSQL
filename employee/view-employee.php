@@ -14,7 +14,6 @@ $result = mysqli_query($conn , $sql);
 $i = 1;
 $you = "";
 
-
 ?>
 
 <style>
@@ -88,11 +87,3 @@ table {
     </table>
     </div>
 </div>
-
-<?php 
-    require_once "include/footer.php";
-?>
-
-<?php 
-    require_once "include/footer.php";
-?>
