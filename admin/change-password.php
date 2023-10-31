@@ -112,6 +112,3 @@ require_once "include/header.php";
 </div>
 
 
-<?php
-require_once "include/footer.php";
-?>
