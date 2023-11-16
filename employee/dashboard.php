@@ -9,8 +9,6 @@ require_once "include/header.php";
          
         $i = 1;
         
-
-
         // applied leaves--------------------------------------------------------------------------------------------
         $total_accepted = $total_pending = $total_canceled = $total_applied = 0;
         $leave = "SELECT * FROM emp_leave WHERE email = '$_SESSION[email_emp]' ";
