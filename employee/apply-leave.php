@@ -3,7 +3,6 @@
 
 require_once "include/header.php";
 ?>
-
 <?php 
 $reasonErr = $startdateErr = $lastdateErr = "";
 $reason = $startdate = $lastdate = "";
